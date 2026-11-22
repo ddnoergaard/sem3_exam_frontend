@@ -3,7 +3,7 @@ name: Auto Assign Reviewers
 on:
   pull_request:
     types: [opened, ready_for_review]
-    branches: [main]
+    branches: [master]
 
 permissions:
   contents: read
